@@ -14,7 +14,6 @@ __all__ = ["calc_chi2", "calc_2dchi2"]
 
 
 # -----------------------------  FUNCTIONS -----------------------------
-
 def calc_chi2(x, err, reduced=False, deg=0):
     '''Calculate the (reduced) Chi-square.
 

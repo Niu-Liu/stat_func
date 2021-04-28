@@ -68,6 +68,6 @@ def rms_calc(x, err=None):
 
 
 if __name__ == '__main__':
-    print("No job to execute!")
+    pass
 
 # --------------------------------- END --------------------------------

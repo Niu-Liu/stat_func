@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# File name: mjd2mjy.py
+# File name: mjd2jyear.py
 """
 Created on Wed Feb  5 14:56:40 2020
 
@@ -14,7 +14,7 @@ from astropy.time import Time
 
 
 # -----------------------------  FUNCTIONS -----------------------------
-def mjd2mjy(mjd):
+def mjd2jyear(mjd):
     """Convert MJD to MJY.
 
     Parameter
@@ -29,8 +29,8 @@ def mjd2mjy(mjd):
     """
 
     epoch = Time(mjd, format="mjd")
-    mjy = epoch.jyear
+    jyear = epoch.jyear
 
-    return mjy
+    return jyear
 
 # --------------------------------- END --------------------------------
